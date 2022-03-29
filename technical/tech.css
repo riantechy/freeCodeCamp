@@ -1,0 +1,50 @@
+nav{
+    background-color: aliceblue;
+    width: auto;
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+li a{
+    padding: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#navbar li{
+    padding: 20px;
+    border-bottom: 1px solid rgb(48, 47, 49);
+    text-decoration: none;
+    margin: auto;
+}
+#navbar h3{
+    color: rgb(102, 66, 66);
+    background-color: #dfdfdf;
+}
+
+section{
+    width: 80%;
+    float: right;
+    margin: 10px;
+    border-bottom: 2px solid rgb(126, 73, 73);
+}
+code{
+    background-color: rgb(204, 198, 198);
+    color: blue;
+}
+@media only screen and (max-device-width: 300px) {
+    section {
+      width: 100%;
+    }
+    nav{
+      width: 100%;
+      position: static;
+    }
+  }
